@@ -1,0 +1,44 @@
+*{
+	margin:0;
+	padding:0;
+}
+h1{
+	text-align:center;
+	margin:10px;
+}
+.card{
+	margin: 0 auto;
+	max-width:350px;
+	text-align:center;
+	margin-top:10px;
+	box-shadow:0 4px 4px 0 gray;
+	transition:0.5s;
+	font-size:0; <!for removing default spacing>
+	
+}
+.card:hover{
+	box-shadow:0 16px 30px 0 gray;
+}
+.calc-head #result{
+	width:340px;
+	height:100px;
+	font-size:30px;
+	font-weight:bold;
+	text-align:right;
+	padding:0 5px;
+	letter-spacing:2px;
+}
+.btn{
+	width:87px;
+	height:70px;
+	font-size:20px;
+	color:white;
+	background-color:black;
+	
+}
+.btn-style{
+	background-color:#0D70D3;
+}
+.btn:hover{
+	background-color:#D65912;
+}
